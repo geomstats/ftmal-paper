@@ -44,7 +44,6 @@ def main():
         ax.set_ylim(y_lims)
         ax.set_xlim(x_lims)
         ax.set_aspect('equal')
-    plt.savefig('../figures/geo-se2.eps', bbox_inches='tight', pad_inches=0)
     plt.show()
 
 
